@@ -71,24 +71,58 @@ nav span a {
 
 
 
-.male-student-container {
+.three-students-section {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1 px solid balck;
     background-color: lightgray;
-    height: 700px;
+    border: 3px solid black;
+    height: 680px;
     width: 1297px;
 
 }
 
-.text {
+.three-students-container {
+    margin-right: 5px;
+    margin-left: 28px;
     display: flex;
+    height:85%;
+    width: 60%;
+    background-color:white;
     
 }
 
-.text h2 h4 {
-    position: relative;
+.image-three {
+    overflow: hidden;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    width:35%;
+    margin-left:24px;
+    margin-right: 40px;
+    margin-top: 0;
+    display: flex;
     align-items: right;
     justify-content: center;
 }
+
+text h1 {
+    font-weight: 600;
+}
+
+h4, .start-here-button {
+    line-height: 10px;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+.start-here-button {
+
+    text-align: center;
+}
+
+
