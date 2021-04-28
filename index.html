@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -14,16 +17,19 @@
 
   <body>
     <!-- Header-->
-    <header class="header-desktop">
-        <div class="logo-container">
-            <img alt="black on white logo image is a griffin" role="presentation" src="./resources/images/ic-logo-cat.jpeg" style= "height: 65px;">
+   <!--<header class="header-desktop">
+        <div class="logo-container"> -->
+    <header>
+        <!--<img class="logo-image" alt="black on white logo image is a griffin" role="presentation" src="./resources/images/ic-logo-cat.jpeg" style= "height: 65px;">-->
+        <div class="logo">
+            <img src="./resources/images/ic-logo-cat.jpeg" style="height: 70px;">
             <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
         </div>
         <nav>
-            <a href="#">On Campus</a>
-            <a href="#">Online</a>
-            <a href="#">For Companies</a>
-            <a href="#">Sign In</a>
+            <span><a href="#">On Campus</a></span>
+            <span><a href="#">Online</a></span>
+            <span><a href="#">For Companies</a></span>
+            <Span><a href="#">Sign In</a><span>
         </nav>
     </header>
 
@@ -37,21 +43,77 @@
     <!-- First Section - Introduction content-->
 
     
-    <div class="three-students-section">
-        <div class="three-students-container">
-            <div class="image-three">
-                <img alt="three students studying oudoors at a picnic table" src="./resources/images/banner_larger.jpg">
-                    
-            </div>
+    <div class="banner-three-students-section">
+       
+        <div class="banner-three-students-container">
+            <img class="banner-image-three" alt="three students studying oudoors at a picnic table" src="./resources/images/banner.jpg">
+                
+        
         </div>
 
-        <div class="text">
-            <span><h1>Learn something new everyday</h1>
-                <h4>Loren ipsum dolor sit amet, <br>consectetur adipiscing elit.</h4>
-                <div class="start-here-button">Start here</div>
+        <div class="banner-text">
+            <span><h1 class="banner-h1" >Learn something new everyday</h1>
+                <h4>Loren ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                <div alt="there is a gray click on rectangle button here" class="start-here-button">Start here</div>
             </span>
         </div>
     </div>
+
+    <div class="main-info-section-desktop" alt="section providing school info with images">
+        <div class="main-left-section-desktop">
+            <img class="main-man-reading-image" src="./resources/images/information-main-man-sweater.jpg">
+        <!--</div>-->
+
+            <div class="info-below-man" alt="inspirational words about learning">
+                <h1 class="main-info-statement">It doesn't hurt to keep practicing</h1>
+                <span><p class="main-paragraph">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec 
+                    consequat neque. Sed non accumsan una.  Phasellus sed consequat ex. Etiam eget magna lacreet, efficitur dolor consequat,
+                    tristique ligula."
+                    </p>
+                    <h3 class="author">Emanuel, Sr. Strategist at Hiring.com</h3>
+                </span>
+            </div>
+        </div>
+
+        <div class="info-container" alt="section about school campus">
+            <div class="info-images">
+                <div class="images-container" id="top-item">
+                    <img alt="students walking on brick campus walkway shadows" src="./resources/images/information-orientation-shadows-smaller.jpg">
+                </div>    
+                <div class="info-side">
+                    <h3>Orientation date</h3>
+                    <h5>Tue 10/11 & Wed 10/12: 8am-3pm</h5>
+                    <h5 class="read-more"><a href="#">Read more</a></h5>
+                </div>
+            </div>
+            <div class="info-images">
+                <div class="images-container">
+                    <img alt="classroom setting with world map on wall" src="./resources/images/information-campus-mobile-smaller.jpg">
+                </div>
+                <div class="info-side">
+                    <h3>Our campus</h3>
+                    <h5>Find which campus is close by you</h5>
+                    <h5 class="read-more"><a href="#">Read more</a></h5>
+                </div>
+            </div>
+            
+            <div class="info-images" id="gray-background">
+                <div class="images-container">
+                    <img alt="photo of the guest lecturer" src="./resources/images/information-guest-lecture2.jpg">
+                </div>
+                <div class="info-side">
+                        <h3>Our guest lecturer</h3>
+                        <h5>Join a keynote with Oliver Stack about music in medical treatment</h5>
+                        <h5 class="read-more"><a href="#">Read more</a></h5>
+                
+                </div>
+            </div>
+
+                
+        </div>  
+    </div>
+
+        
 
         
 
