@@ -17,23 +17,25 @@
 
   <body>
     <!-- Header-->
-   <!--<header class="header-desktop">
-        <div class="logo-container"> -->
-    <header>
-        <!--<img class="logo-image" alt="black on white logo image is a griffin" role="presentation" src="./resources/images/ic-logo-cat.jpeg" style= "height: 65px;">-->
-        <div class="logo">
-            <img src="./resources/images/ic-logo-cat.jpeg" style="height: 70px;">
+    <!--<header class="header-desktop"-->
+     <!--<div class="logo-container"-->
+    <header class="desktop">
+        <!--<img class="logo-image" alt="black on white logo image is a griffin" role="presentation" src="./resources/images/ic-logo-cat.jpeg" style= "height: 65px;"-->
+        <div class="logo-container">
+            <img class="logo" alt="site logo, a black on white griffin icon" src="./resources/images/ic-logo-cat.jpeg">
             <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
         </div>
         <nav>
-            <span><a href="#">On Campus</a></span>
+            <span><a href="#">On campus</a></span>
             <span><a href="#">Online</a></span>
             <span><a href="#">For Companies</a></span>
             <Span><a href="#">Sign In</a><span>
         </nav>
     </header>
 
-    <div class="logo-container-mobile" role="presentation mobile">
+    <!-- Mobile screen header layout-->
+
+    <div class="logo-container header mobile" role="presentation mobile">
         <img alt="griffin logo icon" src="ic-logo-cat.jpg">
         <img alt="school desk icon" src="./resources/images/ic-on-campus-desk.jpg">
         <img alt="computer monitor icon" src="./resources/images/ic-online-monitor-logo.jpeg">
@@ -41,27 +43,27 @@
     </div>
 
     <!-- First Section - Introduction content-->
-
+    <!--Desktop Media screen layout-->
     
-    <div class="banner-three-students-section">
+    <div class="banner-three-students-section" class="section1 desktop">
        
-        <div class="banner-three-students-container">
+        <div class="banner-three-students-container" class="desktop-banner">
             <img class="banner-image-three" alt="three students studying oudoors at a picnic table" src="./resources/images/banner.jpg">
-                
-        
         </div>
 
         <div class="banner-text">
             <span><h1 class="banner-h1" >Learn something new everyday</h1>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                <div alt="there is a gray click on rectangle button here" class="start-here-button">Start here</div>
+                <!--<div alt="there is a gray click on rectangle button here" class="start-here-button">Start here</div>-->
+                <h5 class="start-here-button"><a href="#">Start here</a></h5>
             </span>
         </div>
     </div>
 
     <!-- Second Section - Campus Information-->
+    <!--Desktop Media screen layout-->
 
-    <div class="main-info-section-desktop" alt="section providing school info with images">
+    <div class="main-info-section-desktop" alt="section providing school info with images" class="section2-desktop">
         <div class="main-left-section-desktop">
             <img class="main-man-reading-image" src="./resources/images/information-main-man-sweater.jpg">
     
@@ -77,8 +79,8 @@
             </div>
         </div>
 
-        <div class="info-container" alt="section about school campus">
-            <div class="info-images" id="top-item">
+        <div class="info-right-container" alt="section about school campus">
+            <div class="info-right-images" id="top-item">
                 <div class="images-container">
                     <img alt="students walking on brick campus walkway shadows" src="./resources/images/information-orientation-shadows-smaller.jpg">
                 </div>    
@@ -88,7 +90,7 @@
                     <h5 class="read-more"><a href="#">Read more</a></h5>
                 </div>
             </div>
-            <div class="info-images" id="middle-image">
+            <div class="info-right-images" id="middle-image">
                 <div class="images-container">
                     <img alt="classroom setting with world map on wall" src="./resources/images/information-campus-mobile-smaller.jpg">
                 </div>
@@ -99,7 +101,7 @@
                 </div>
             </div>
             
-            <div class="info-images" id="gray-background">
+            <div class="info-right-images" id="gray-background">
                 <div class="images-container">
                     <img alt="photo of the guest lecturer" src="./resources/images/information-guest-lecture2.jpg">
                 </div>
@@ -115,26 +117,141 @@
     </div>
 
     <!-- Third Section - Classes Offered-->
+    <!--Desktop Media screen layout-->
 
-    <div class="section-3-start-learning-container">
+    <div class="section-3-start-learning-container" class="section3 desktop" role="information">
+
         <div class="text-header">
             <h1>Start learning</h1>
         </div>
-        <div>
-            <div></div>
 
+        <div class='section-3'>
+            <div class='row'>
+              <div class='column'>
+                <div class='left-column'>
+                    <img class="image-courses" alt="nighttime monitors illuminated" src="./resources/images/course-software.jpg">
+                    <h3 class="course-title">Software engineering</h3>
+                    <h5 class="same6">COURSES</h5>
+                    <h5 class="courses-offered">Web Development, Mobile Development, iOT, APIs</h5>
+                    
+                </div>
+              </div>
+              <div class='column'>
+                <div class='middle-column'>
+                    <img class="image-courses" alt="daytime hand holiding cell phone" src="./resources/images/course-computer-art.jpg">
+                    <h3 class="course-title">Computer art</h3>
+                    <h5 class="same6">COURSES</h5> 
+                    <h5 class="courses-offered">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</h5>
 
+                </div>
+              </div>
+              <div class='column'>
+                <div class='right-column'>
+                    <img class="image-courses" alt="student outdoors holding a camera" src="./resources/images/course-design.jpg">
+                    <h3 class="course-title">Design</h3>
+                    <h5 class="same6">COURSES</h5>
+                    <h5 class="courses-offered">User Experience Design, User Research, Visual Design</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class='row 2'>
+              <div class='column'>
+                <div class='left-column'>
+                    <img class="image-courses" alt="daytime open laptop on desk" src="./resources/images/course-data.jpg">
+                    <h3 class="course-title">Data</h3>
+                    <h5 class="same6">COURSES</h5>
+                    <h5 class="courses-offered">Data Science, Big Data, SQL, Data Visualisation</h5>
+                </div>
+              </div>
+              <div class='column'>
+                <div class='middle-column'>
+                    <img class="image-courses" alt="closeup of modern chess pieces" src="./resources/images/course-business.jpg">
+                    <h3 class="course-title">Business</h3>
+                    <h5 class="same6">COURSES</h5>
+                    <h5 class="courses-offered">Product Development, Business Development, Startup</h5>
+                </div>
+              </div>
+              <div class='column'>
+                <div class='right-column'>
+                    <img class="image-courses" alt="daytime open laptop on desk" src="./resources/images/course-marketing.jpg">
+                    <h3 class="course-title">Marketing</h3>
+                    <h5 class="same6">COURSES</h5>
+                    <h5 class="courses-offered">Analytics, Content Marketing, Mobile Marketing</h5>
+                </div>
+              </div>
+            </div>
+        </div>  
+    </div> 
 
+    <!-- Fourth/Final section video included-->
+    <!--Desktop Media screen layout-->
+
+    <div class="thesis-final-container" class="desktop section4"> <!--not sure if i need to do for desktop or just mobile layout-->
+        <div class="thesis-title">
+            <h1 alt="A video and more school information">Thesis exhibit</h1>
+        </div>
+    <div>
+
+    
+    <div class="thesis-container" alt="there is a video below">
+        <div class="thesis-video-section">
+            <p>
+            <!-- <video autoplay muted loop width="790" height="520" controls> -->
+            <video class="left-side-thesis-video" role="presentation" controls autoplay width="500" height="610">
+                <source src="./resources/videos/thesis.mov" type="video/mp4">
+            </video>
+            </p>
+        </div>
+
+        <div class="text-under-video" alt="information about the urban aspect">
+            <h3 class="main-heading-info">Reimagine urban</h3>
+            <span><h5 style="text-align: justify;" class="text-urban">"Curabitur vitae in ipsum portitor consequat. Aliquam at commodo lectus, nec consequat 
+                neque. Sed non accumsan urna.  Phaselius sed consequat ex.  Etiam eget magna lacreet, efficitur dolor consequat 
+                tristique ligula."
+            </h5>
+            </span>
 
         </div>
 
+        <div class="thesis-right-side-container">
+            <div class="thesisright-info-images" id="top-image">
+                <div class="thesis-images-container">
+                    <img alt="overhead view arm over papers on dexk" src="./resources/images/thesis-fisma-arm-phone.jpg">
+                </div>
+                <div class="thesis-side-info">
+                    <h3 class="heading">Fisma: Design and Prototype</h3>
+                    <h5 class="sub-text">Designer showcase of new prototype product</h5>
+                </div>
+            </div>
+            <div class="thesisright-info-images" id="bottom-image">
+                <div class="thesis-images-container">
+                    <img alt="New York, cityscape view of Chrysler building" src="./resources/images/thesis-now-and-then-city-building.jpg">
+                </div>
+                <div class="thesis-side-info">
+                    <h3 class="heading">Now and then</h3>
+                    <h5 class="sub-text">Research study about New York</h5>
+                </div>
+            </div>
+           
+        </div>
+    </div> 
+    
+    <footer class="footer-section desktop">
+         <div class="left-footer" role="presentation">
+             &copy 2016 Colmar Academy. All rights reserved
+        </div>
 
-    </div>
+        <div class="right-footer desktop" role="presentation">
+            <nav class=footer-right">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            </nav>
+        </div>
+                
 
-        
+     </footer>
 
-        
-
-
+    
   </body>
 </html>
