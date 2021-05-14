@@ -56,6 +56,7 @@ header {
     font-size: 25px;
     color:rgb(114, 111, 111);
     font-weight: 800;
+    letter-spacing: 1px;;
     /*padding-top: 18px; /*new*/
     /*margin-left: 15px;*/
 }
@@ -85,7 +86,7 @@ nav span a {
     margin-left: -16px;
     color:rgb(105, 104, 104);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .logo-container-header-mobile {
@@ -133,7 +134,7 @@ nav span a {
     margin-right: 24px;
     display: flex;
     height: 87%;
-    width: 64%;
+    width: 66%;
     /*background-color:white;*/
 }
 
@@ -328,7 +329,7 @@ h4 {
     height: 95%;
     /*overflow: hidden;*/
     background-size: auto;
-    width: 99%;
+    width: 100%;
     display: inline-block;
     margin-bottom: 11px;
     margin-top: 7px;
@@ -352,10 +353,10 @@ h4 {
     /*font-size: 2.1em;*/
     font-size: 2em;
     font-weight: 800;
-    letter-spacing: .5px;
+    letter-spacing: .8px;
     color: rgb(80, 77, 77);
     display: inline;
-    padding-top: 8px;;
+    padding-top: 12px;;
     /*border: 2px solid blue;*/
     width: 98%;
     /*margin-left: -10px;*/
@@ -380,7 +381,7 @@ h4 {
 .author {
     margin-bottom: 0px;
     /*font-size: 22px;*/
-    font-weight: 500;
+    font-weight: 300;
     color: rgb(80, 77, 77);
     font-size: .8em;
     /*border: 3px blue;*/
@@ -402,14 +403,14 @@ h4 {
 }*/
 
 .info-right-container {
-    width: 41.5%;
+    width: 40%;
     /*height: auto;*/
     height: 99.8%;
     padding-bottom: 1px;
     display: flex;
     flex-direction: column;
     margin-top: 28px;
-    margin-left: 14px;
+    margin-left: 24px;
     margin-bottom: 24px;
     /*border: 1px solid blue;*/
 }
@@ -424,13 +425,13 @@ h4 {
     /*border: 1px solid green;*/
     border-left: 1px solid lightgray;
     margin-bottom: 1px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 .images-container {
     margin-top: 10px;
     margin-bottom: 18px;
-    margin-left: 18px;
+    margin-left: 22px;
     width: 33%;
     height: 70%;
     display: flex;
@@ -446,7 +447,7 @@ h4 {
     display: flex;
     margin-left: 14px;
     flex-direction: column;
-    width: 59.8%;
+    width: 59.9%;
     justify-content: center;
     /*border: 1px solid red;*/
 }
@@ -457,7 +458,7 @@ h4 {
 }
 
 .info-side h3 {
-    margin-top: 1px;
+    margin-top: 6px;
     margin-bottom: 10px;
     font-size: 1.7rem;
     font-weight: 400;
@@ -472,10 +473,10 @@ h4 {
     margin-top: 0;
     margin-bottom: 15px;
     margin-right: 22px;
-    margin-left: 5px;
+    margin-left: 10px;
     line-height: 24px;
     letter-spacing: .6px;
-   /* border: 1px solid red;*/
+    /*border: 1px solid red;*/
 }
 
 h5 a {
@@ -487,8 +488,8 @@ h5 a {
 #top-item {
     margin-top: 4px;
     margin-left: 6px;
-    padding-left: 5px;
-    border-bottom: 3px solid rgb(235, 233, 233);
+    padding-left: 1px;
+    border-bottom: 1px solid rgb(235, 233, 233);
     padding-top: none;
     /*margin-bottom: 20px;*/
 }   
@@ -507,23 +508,23 @@ h5 a {
 
  #gray-background {
     margin-top: 1px;
-    margin-left: 4px;
+    margin-left: 5px;
     padding-top: 16px;
     padding-bottom: 24px;
-    background-color: rgb(218, 214, 214);
+    background-color: rgb(224, 222, 222);
     height: 9.4em;
-    width: 99%;
+    width: 99.8%;
 }
 
 #gray-background .info-side {
-    width: 51%;
+    width: 53%;
 }
 #gray-background .images-container {
     margin-left: 24px;
 }
 
 #gray-background h5 {
-    width: 96%;
+    width: 98%;
 }
 
 .mobile {
@@ -664,7 +665,7 @@ h5 a {
 }
 
 .section-3-start-learning-container {
-    background-color: rgb(224, 220, 220);
+    background-color: rgb(231, 228, 228);
     border-top: 1px solid whitesmoke;
     border-right: 1px solid darkgray;
     border-left: 1px solid darkgray;
@@ -857,7 +858,7 @@ h5 a {
 }
 
 .thesis-final-container {
-    background-color: rgb(230, 235, 235);
+    background-color: lightgray;
     width: 99.8%;
     height: 170px;
     border-left: 1px solid darkgray;
@@ -899,14 +900,14 @@ h5 a {
 
 .thesis-video-section {
     /*padding-top: -65px;*/
-    width: 54%;
-    height: 71%;
+    width: 55%;
+    height: 70%;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: -1px;
     border: 2px solid red;
     /*border: 1px solid darkgray;*/
-    background-color: rgb(203, 203, 211);
+    background-color: lightgray;
 }
 
 .left-side-thesis-video {
@@ -936,18 +937,19 @@ h5 a {
     letter-spacing: .5px;
     margin-bottom: 12px;
     font-weight: 700;
+    font-size: 26px;
 
 }
 .text-urban {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(124, 121, 121);
     font-weight: 400;
     margin-bottom: 42px;
-    margin-top: 1px;
+    margin-top: 10px;
     padding-bottom: 82px;
     height: auto;
     width: 96%;
-    line-height: 1.5em;
+    line-height: 1.4em;
     /*border: 3px solid darkkhaki;*/
 }
 
@@ -1012,6 +1014,7 @@ h5 a {
 
 .sub-text {
     font-weight: 400;
+    /*font-size: 18px;*/
     letter-spacing: .5px;
     padding-bottom: 5px;
     margin-top: 1px;
@@ -1022,7 +1025,7 @@ h5 a {
 }
 
 .heading h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: bold;
     color: rgb(80, 77, 77);
     
@@ -1032,7 +1035,7 @@ h5 a {
     .thesis-container {
         flex-direction: column;
         width: 99.8%;
-        border-left: 2pxsolid gray;
+        border-left: 2px solid gray;
         padding-top: 1px;
         height: auto;
         margin-left: 1px;
