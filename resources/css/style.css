@@ -121,8 +121,8 @@ nav span a {
     /*border: 1px solid black;*/
     height: 675px;
     width: 99.8%;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     border-top: 10px;
     
 }
@@ -284,10 +284,10 @@ h4 {
     }
 
     .banner-image-three {
-        width: 100%;
+        width: 99.9%;
         height: auto;
         margin-left: none;
-        margin-right: none;
+        margin-right: 1px;;
     }
 
 
@@ -311,12 +311,12 @@ h4 {
     flex-wrap: wrap;
     /*border-left: 1px solid rgb(80, 77, 77);*/
     width: 99.8%;
-    height: 820px;
+    height: 810px;
     /*justify-content: column;;
     align-items: center;*/
     background-color: whitesmoke;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
+    border-left: 1px solid gray;
+    border-right: 1px solid lightgray;
 }
 
 .main-left-section-desktop {
@@ -332,7 +332,7 @@ h4 {
 }
 
 .main-man-reading-image {
-    height: 95%;
+    height: 96%;
     /*overflow: hidden;*/
     background-size: auto;
     width: 100%;
@@ -441,7 +441,7 @@ h4 {
     margin-bottom: 18px;
     margin-left: 15px;
     width: 34%;
-    height: 72%;
+    height: 71.5%;
     display: flex;
     flex-direction: column;
     /*border: 1px solid black;*/
@@ -466,7 +466,7 @@ h4 {
 
 }
 
-.info-side .mobileh3 {
+.info-side .mobile-h3 {
     display: none;
 }
 
@@ -499,12 +499,12 @@ h5 a {
 }
 
 #top-item {
-    margin-top: 0px;
+    margin-top: 4px;
     margin-left: 4px;
     padding-left: 1px;
     border-bottom: 1px solid rgb(240, 233, 233);
     /*border-left: 1px solid rgb(233, 229, 229);*/
-    padding-top: -1;
+    padding-top: -2;
     padding-bottom: 20px;
     /*margin-bottom: 20px;*/
 }   
@@ -529,11 +529,11 @@ h5 a {
     padding-bottom: 18px;
     background-color: rgb(224, 222, 222);
     height: 9.5em;
-    width: 100%;
+    width: 101.4%;
 }
 
 #gray-background .info-side {
-    width: 52.7%;
+    width: 53.8%;
 }
 #gray-background .images-container {
     margin-left: 22px;
@@ -564,7 +564,9 @@ h5 a {
         margin-left: 0px;
         margin-top: 0px;
         padding-left: 0px;
+        padding-bottom: 32px;
         background-color: whitesmoke;
+        border-bottom: 1px solid lightgray;
     }
 
 
@@ -598,12 +600,17 @@ h5 a {
     #gray-background  .info-side {
         width: 100%;
         /*border: 2px solid black;*/
-        background-color: yellow;
         margin-top: -45px;
     }
 
     #gray-background  .info-side h5 {
         width: 77%;
+    }
+
+    #gray-background .mobile-h3 {
+        margin-top: 10px;
+        width: 99%;
+        /*border: 2px solid green; */  
     }
 
     .mobile {
@@ -638,6 +645,10 @@ h5 a {
         padding-bottom: 0px;
     }
 
+    .info-side .mobile-h3 {
+        display: inline;
+    }
+
     .info-side .desktop-h3 {
         display: none;
     }
@@ -648,14 +659,14 @@ h5 a {
 
     .info-side h3 {
         width: 99%;
-        border: 2px solid red;
+        /*border: 2px solid red;*/
     }
 
-    .info-side .mobileh3 {
+    .info-side {
         margin-left: 2px;
         margin-right: 8px;
         margin-top: 8px;
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .read-more {
@@ -675,8 +686,8 @@ h5 a {
         padding-top: 10px;
         padding-right: 16px;
         padding-left: -20px;
-        border-left: 1px solid white;
-        border-bottom: 1px solid white;
+        border-left: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
     }
 
     #top-item {
@@ -686,8 +697,7 @@ h5 a {
     #middle-image {
         border-left: 1px solid whitesmoke;
         border-top: 1px whitesmoke;
-    }
-    
+    }    
 }
 
 
@@ -701,10 +711,11 @@ h5 a {
 .section-3-start-learning-container {
     background-color: rgb(238, 234, 234);
     border-top: 1px solid whitesmoke;
-    border-right: 1px solid darkgray;
-    border-left: 1px solid darkgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
     /*border: 2px solid red;*/
     height: 1075px;
+    width: 99.8%;
 }
 
 .text-header {
@@ -802,10 +813,10 @@ h5 a {
     .section-3-start-learning-container {
         background-color: whitesmoke;
         border-top: 0px;
-        border-right: 1px;
-        border-left: 1px;
+        border-right: 1px solid lightgray;
+        border-left: 1px solid gray;
         border-bottom: 8px;
-        margin-bottom: 8px;
+        padding-bottom: 32px;
         /*border: 2px solid red;*/
         height: 100%;
     }
@@ -865,8 +876,12 @@ h5 a {
         letter-spacing: 1px;
         margin-left: 16px;
         padding-top: 12px;
-        margin-bottom: 8px;
         /*border: 1px solid red;*/
+    }
+
+    .marketing {
+        /*margin-bottom: 2px solid red;*/
+        padding-bottom: 8px;
     }
 
     .same6 h5 {
@@ -893,10 +908,10 @@ h5 a {
 
 .thesis-final-container {
     background-color: lightgray;
-    width: 99.8%;
-    height: 170px;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
+    width: 99.7%;
+    height: 140px;
+    /*border-left: 1px solid darkgray;*/
+    border-right: 1px solid lightgray;
     /*display: flex;
     flex-wrap: wrap;
     /*justify-content: center;*/
@@ -909,7 +924,8 @@ h5 a {
     padding-top: 32px;
     padding-bottom: 32px;
     justify-content: center;
-    /*border-right: 1px solid darkgray;*/
+    border-right: 1px solid gray;
+    border-left: none;
     background-color: whitesmoke;
     /*height: 100px;*/
     width: 99.7%;
@@ -1080,6 +1096,14 @@ h5 a {
     
 }
 
+.heading-2 {
+    margin-top: 35px;
+    margin-bottom: 14px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    /*border: 2px solid red;*/
+}
+
 .sub-text {
     font-weight: 400;
     width: 105%;
@@ -1101,32 +1125,45 @@ h5 a {
 @media only screen and (max-width: 570px) {
     .thesis-container {
         flex-direction: column;
-        width: 99.8%;
-        border-left: 2px solid gray;
+        width: 99.8;
+        border-right: 1px solid lightgray;
+        border-left: none;
         padding-top: 1px;
         height: auto;
         margin-left: 1px;
     }
 
     .thesis-title {
-        /*display: flex;
-        padding-top: 32px;*/
-        padding-bottom: 1px;
+        border-top: 1px solid lightgray;
+        border-left: 0px solid gray;
+        border-right: 1px solid lightgray;
+        padding-top: 16px;
         justify-content: center;
         background-color: whitesmoke;
+        padding-bottom: 16px;
         /*height: 100px;*/
-        width: 99%;
-        margin-left: 5px;
+        width: 99.6%;
+        margin-left: 4px;
         font-size: .9em;
         /*border: 2px solid orange;*/
     
     }
 
+    .thesis-images-container {
+    
+    }
+
     .thesis-video-section {
-        width: 99.5%;
+        width: 105%;
+        height: auto;
         background-color: whitesmoke;
-        border: 1px solid whitesmoke;
-        margin-left: 0px;
+        border-left: 0px solid gray;
+        /*border-right: 1px solid gray;*/
+        border-bottom: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+
+        margin-left: -13px;
+        padding-right: 1px;
     }
 
     .text-under-video {
@@ -1184,11 +1221,14 @@ h5 a {
 
 @media only screen and (max-width: 570px) {
     .left-footer {
-        width: 100%;
+        width: 99.8%;
         margin-top: 45px;
         margin-left: 24px;
+        margin-left: 14px;
         font-size: 16px;
         letter-spacing: 1px;
+        border-top: 1px solid whitesmoke;
+        /*border: 1px solid gray;*/
     
     }
 
