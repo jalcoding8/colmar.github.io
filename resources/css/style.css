@@ -45,8 +45,9 @@ header {
     width: 99.8%;
     background-color: white;
     /*position: fixed;
-    z-index: 40;*/
-    padding-bottom: 5px 0;
+    z-index: 1;*/
+    padding-bottom: 5px;
+    /*margin-bottom: 15px;*/
     border-left: 1px solid darkgray;
     border-right: 1px solid darkgray;
 
@@ -99,8 +100,8 @@ nav span a {
 
 @media only screen and (min-width: 1824px) {
     .desktop {
-        width: 100%; /*Need to play with this as I imagine it doesn't fit my pixels*/
-        margin: 0 auto;
+        width: 100%; 
+        margin-left: 1px;
     }
 }
 
@@ -125,6 +126,7 @@ nav span a {
     border-right: 1px solid lightgray;
     border-top: 10px;
     
+    
 }
 
 
@@ -138,22 +140,18 @@ nav span a {
     /*background-color:white;*/
 }
 
+
 .banner-image-three {
    
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 100%;
     height: auto;
-    /*background-size: auto;*/
+    /*margin-top: 14px;*/
     display: flex;
     flex-wrap: wrap;  
     /*image-resolution: 300dpi;  */
 }
 
-/*@media only screen and (min-resolution: 300dpi) {
-    .images-container {
-      image-resolution: 300dpi;
-    }
-}*/
 
 .banner-text {
     width: 42%;
@@ -205,8 +203,8 @@ h4 {
     background-color: rgb(77, 74, 74);
     padding-top: 16.5px;
     padding-bottom: 17px;
-    padding-left: 152px;
-    padding-right: 152px;
+    padding-left: 154px;
+    padding-right: 158px;
     margin-bottom: 40px;
 }
 
@@ -215,13 +213,20 @@ h4 {
 @media only screen and (max-width: 570px) {
     .banner-three-students-section {
         flex-direction: column;
-        width: 99.5%;
-        /*border: 2 px solid darkgray;*/
+        width: 99.9%;
         padding-top: 1px;
         height: auto;
-        
     }
 
+
+    .logo-container-header-mobile {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        /*border: 2px solid red;*/
+        height: 64px;
+    }
+
+    
     .start-here-button a {
         font-size: 22px;
         text-align: center;
@@ -230,13 +235,13 @@ h4 {
         width: 100%;
         height: 8%;
         background-color: rgb(129, 127, 127);
-        padding-top: 14px;
-        padding-bottom: 14px;
+        padding-top: 13px;
+        padding-bottom: 13px;
         padding-left: 163px;
-        padding-right: 164px;
-        margin-bottom: 8px;
+        padding-right: 165px;
+        margin-bottom: 16px;
         margin-left: 24px;
-        margin-right: none;
+        margin-right: 1px;;
         /*border: 3px solid blue;*/
 
     }
@@ -258,12 +263,11 @@ h4 {
     }
 
     .banner-text {
-        width: 93%;
+        width: 99%;
         /*padding-bottom: 1rem;*/
-        margin-left: 24px;
+        margin-left: 2px;
         /*border: 3px solid red;*/
-        margin-left: 32px;
-        margin-right: none;
+        margin-right: 2px;
     }
 
     .banner-text .banner-h1 {
@@ -281,13 +285,14 @@ h4 {
         /*border: 2px solid black;*/
         letter-spacing: 1.3px;
         font-size: 28px;
+        font-weight: 300;
     }
 
     .banner-image-three {
-        width: 99.9%;
+        width: 100%;
         height: auto;
-        margin-left: none;
-        margin-right: 1px;;
+        margin-left: 0px;
+        border-right: 1px lightgray;
     }
 
 
@@ -299,19 +304,14 @@ h4 {
         margin: 0 auto;
     }
 }
-/*@media only screen and (max-width: 1824) {
-    .students-walking-mobile {
-        display: none;
-    }
 
-}*/
 
 .main-info-section-desktop {
     display: flex;
     flex-wrap: wrap;
     /*border-left: 1px solid rgb(80, 77, 77);*/
     width: 99.8%;
-    height: 810px;
+    height: 790px;
     /*justify-content: column;;
     align-items: center;*/
     background-color: whitesmoke;
@@ -363,7 +363,7 @@ h4 {
     letter-spacing: .8px;
     color: rgb(80, 77, 77);
     display: inline;
-    padding-top: 12px;;
+    padding-top: 12px;
     /*border: 2px solid blue;*/
     width: 98%;
     /*margin-left: -10px;*/
@@ -382,7 +382,7 @@ h4 {
     color: rgb(150, 148, 148);
     font-weight: 100;
     line-height: 1.5em;
-    width: 94%;
+    width: 92%;
 }
 
 .author {
@@ -426,8 +426,6 @@ h4 {
     width: 100%;
     margin-top: 1px;
     padding-top: 20px;
-    /*height: auto;*/
-    /*height: auto;*/
     display: flex;
     flex-wrap: wrap;
     /*border: 1px solid green;*/
@@ -463,6 +461,7 @@ h4 {
 
 .read-more {
     color: blue;
+    font-weight: 200;
 
 }
 
@@ -518,8 +517,11 @@ h5 a {
     margin-top: 1px;
     margin-left: 4px;
     padding-left: 0px;
+}
 
-
+#middle-image .info-side h3 {
+    /*border: 1px solid red;*/
+    margin-top: -7px;
 }
 
  #gray-background {
@@ -615,21 +617,22 @@ h5 a {
 
     .mobile {
         display: block;
-        width: 440px;
+        width: 428px;
         height: 213px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: -1px;
+        margin-right: 15px;
+        padding-right: -14px;
         
         /*background-image: url("./resources/images/information-orientation-mobile-shadows.jpg");*/
     }
 
     .mobile-gray {
         display: block;
-        width: 442px;
-        margin-left: -15px;
-        margin-right: 5px;
-        padding-left: -5px;
-        margin-top: -15px;
+        width: 428px;
+        margin-left: -20px;
+        margin-right: 15px;
+        padding-left: -12px;
+        margin-top: -16px;
         height: 211px;
     }
 
@@ -681,11 +684,11 @@ h5 a {
     
     .info-right-images {
         /*border: 1px solid blue;*/
-        width: 430px;
+        width: 425px;
         margin-top: 1px;
         padding-top: 10px;
         padding-right: 16px;
-        padding-left: -20px;
+        padding-left: -22px;
         border-left: 1px solid whitesmoke;
         border-bottom: 1px solid whitesmoke;
     }
@@ -694,10 +697,19 @@ h5 a {
         border-bottom: 1px solid whitesmoke;
     }
 
+    #top-item .read-more {
+        /*border: 1px solid red;*/
+        padding-bottom: -4.5px;
+    }
+
     #middle-image {
         border-left: 1px solid whitesmoke;
         border-top: 1px whitesmoke;
-    }    
+    }   
+    
+    #middle-image .read-more {
+        padding-bottom: 8px;
+    }
 }
 
 
@@ -709,7 +721,7 @@ h5 a {
 }
 
 .section-3-start-learning-container {
-    background-color: rgb(238, 234, 234);
+    background-color: rgb(233, 232, 232);
     border-top: 1px solid whitesmoke;
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
@@ -725,8 +737,8 @@ h5 a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 20px;
-    padding-top: 48px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 30px;
     /*border: 2px solid green;*/
 }  
   
@@ -881,7 +893,8 @@ h5 a {
 
     .marketing {
         /*margin-bottom: 2px solid red;*/
-        padding-bottom: 8px;
+        padding-bottom: 32px;
+        margin-bottom: 24px;
     }
 
     .same6 h5 {
@@ -924,12 +937,12 @@ h5 a {
     padding-top: 32px;
     padding-bottom: 32px;
     justify-content: center;
-    border-right: 1px solid gray;
+    border-right: 1px solid lightgray;
     border-left: none;
     background-color: whitesmoke;
     /*height: 100px;*/
-    width: 99.7%;
-    margin-left: 5px;
+    width: 99.8%;
+    margin-left: 2px;
     font-size: .8em;
     /*border: 2px solid orange;*/
 
@@ -940,10 +953,10 @@ h5 a {
     flex-wrap: wrap;
     background-color: whitesmoke;
     width: 100%;
-    height: 730px;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
-    border-bottom: 1px solid darkgray;
+    height: 725px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 
     /*border: 4px solid black;*/
 }
@@ -966,6 +979,7 @@ h5 a {
     height: 100%;
     width: 100%;
     /*padding-bottom: 40px;*/
+    /*border: 1px solid red;*/
 }
 
 
@@ -973,11 +987,11 @@ h5 a {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 15px;
     margin-top: -15px;
     margin-bottom: 0px;
-    width: 54%;
-    height: 30%;
+    width: 56.4%;
+    height: 28%;
     color: rgb(80, 77, 77);
     margin-left: 24px;
     /*border: 2px solid green;*/
@@ -986,29 +1000,32 @@ h5 a {
 .main-heading-info {
     position: relative;
     /*border: 2px solid blue;*/
+    margin-left: 1px;
     width: 35%;
     height: 15%;
-    margin-top: 0px;
+    margin-top: -10px;
     letter-spacing: .5px;
     padding-top: 0px;;
     padding-bottom: 0px;
-    margin-bottom: 18px;
-    font-weight: 700;
+    margin-bottom: 10px;
+    font-weight: 520;
     font-size: 26px;
 
 }
-.text-urban {
-    font-size: 20px;
+.text-urban { 
+    font-size: 19px;
     color: rgb(124, 121, 121);
     font-weight: 400;
-    margin-bottom: 40px;
-    margin-top: 2px;
-    padding-top: 4px;
-    padding-bottom: 20px;
-    height: 50%;
-    width: 97%;
+    margin-bottom: 20px;
+    margin-top: -24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 505;
+    width: 99.9%;
     line-height: 1.5em;
-   /*border: 3px solid darkkhaki;*/
+    letter-spacing: .5px;
+    /*word-spacing: .1em;*/
+    /*border: 2px solid darkkhaki;*/
 }
 
 .thesis-right-side-container {
@@ -1118,7 +1135,7 @@ h5 a {
 
 .heading h3 {
     font-size: 26px;
-    color: rgb(80, 77, 77);
+    color: rgb(99, 96, 96);
     
 }
 
@@ -1127,15 +1144,15 @@ h5 a {
         flex-direction: column;
         width: 99.8;
         border-right: 1px solid lightgray;
+        margin-left: 5px;
         border-left: none;
         padding-top: 1px;
         height: auto;
-        margin-left: 1px;
     }
 
     .thesis-title {
         border-top: 1px solid lightgray;
-        border-left: 0px solid gray;
+        /*border-left: 0px solid lightgray;*/
         border-right: 1px solid lightgray;
         padding-top: 16px;
         justify-content: center;
@@ -1185,9 +1202,10 @@ h5 a {
     display: flex;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
-    border-bottom: 1px solid darkgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: none;
 
 }
 
@@ -1222,9 +1240,8 @@ h5 a {
 @media only screen and (max-width: 570px) {
     .left-footer {
         width: 99.8%;
-        margin-top: 45px;
-        margin-left: 24px;
-        margin-left: 14px;
+        margin-top: 40px;
+        margin-left: 32px;
         font-size: 16px;
         letter-spacing: 1px;
         border-top: 1px solid whitesmoke;
@@ -1235,5 +1252,7 @@ h5 a {
     .right-footer {
         display: none;
     }
+
+    
 }
 
