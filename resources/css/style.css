@@ -154,10 +154,11 @@ nav span a {
 
 
 .banner-text {
+    /*font-family: , sans-serif;*/
     width: 42%;
     height: 400px;
     margin-left: 32px;
-    margin-right: 50px;
+    margin-right: 46px;
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -167,6 +168,7 @@ nav span a {
 }
 
 h1 {
+    /*font-family: Montserrat, sans-serif;*/
     font-size: 2.3em;
     font-weight: 600;
     /*color: rgb(48, 38, 38);*/
@@ -182,7 +184,7 @@ h1 {
 
 h4 {
     font-size: 26px;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.1px;
     padding-right: 12px;
     font-weight: 520;
     padding-top: none;
@@ -198,15 +200,17 @@ h4 {
     text-align: center;
     color: whitesmoke;
     font-weight: 200; 
-    width: 398px;
-    height: 7%;
+    /*width: 405px;*/
+    height: auto;
     background-color: rgb(77, 74, 74);
     padding-top: 16.5px;
     padding-bottom: 17px;
-    padding-left: 154px;
-    padding-right: 158px;
+    padding-left: 156px;
+    padding-right: 156px;
     margin-bottom: 40px;
+    /*border: 1px solid blue;*/
 }
+
 
 /*start mobile here*/
 
@@ -236,10 +240,10 @@ h4 {
         height: 8%;
         background-color: rgb(129, 127, 127);
         padding-top: 13px;
-        padding-bottom: 13px;
+        padding-bottom: 20x;
         padding-left: 163px;
         padding-right: 165px;
-        margin-bottom: 16px;
+        margin-bottom: 10px;
         margin-left: 24px;
         margin-right: 1px;;
         /*border: 3px solid blue;*/
@@ -266,7 +270,6 @@ h4 {
         width: 99%;
         /*padding-bottom: 1rem;*/
         margin-left: 2px;
-        /*border: 3px solid red;*/
         margin-right: 2px;
     }
 
@@ -278,6 +281,7 @@ h4 {
         /*border: 2px solid blue;*/
         letter-spacing: 1.7px;
         width: 82%;
+        padding-bottom: 3px;
     }
 
     .sub-text-latin {
@@ -285,6 +289,7 @@ h4 {
         /*border: 2px solid black;*/
         letter-spacing: 1.3px;
         font-size: 28px;
+        padding-bottom: 5px;
         font-weight: 300;
     }
 
@@ -629,7 +634,7 @@ h5 a {
     .mobile-gray {
         display: block;
         width: 428px;
-        margin-left: -20px;
+        margin-left: -18px;
         margin-right: 15px;
         padding-left: -12px;
         margin-top: -16px;
@@ -640,12 +645,18 @@ h5 a {
 
 
     .info-side {
-        margin-left: 0px;
+        margin-left: 10px;
         padding-left: 0px;
         width: 99%;
-        /*border-left: 1px solid white;*/
+        margin-top: 8px;
         /*border: 2px solid blue;*/
         padding-bottom: 0px;
+    }
+
+    #middle-image .info-side h3 {
+        /*border: 2px solid red;*/
+        padding-top: 6px;
+        margin-top: 2px;
     }
 
     .info-side .mobile-h3 {
@@ -665,12 +676,12 @@ h5 a {
         /*border: 2px solid red;*/
     }
 
-    .info-side {
+    /*.info-side {
         margin-left: 2px;
         margin-right: 8px;
         margin-top: 8px;
-        /*border: 2px solid blue;*/
-    }
+        /*border: 2px solid blue;
+    }*/
 
     .read-more {
         padding-bottom: 0px;
@@ -787,7 +798,7 @@ h5 a {
 .course-title {
     font-size: 26px;
     margin-top: 16px;
-    color: rgb(80, 77, 77);
+    color: rgb(109, 106, 106);
     letter-spacing: 1px;
     margin-left: 24px;
     padding-top: 2px;
